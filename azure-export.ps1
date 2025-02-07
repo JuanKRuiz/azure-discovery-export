@@ -482,7 +482,7 @@ foreach ($sub in $subList){
 				Name = $r.name
 				ResourceType = $r.ResourceType
 				Location=$r.Location
-				ResoureceGroup = $r.ResourceGroupName 
+				ResourceGroup = $r.ResourceGroupName 
 				Tags = $r.tags
 				Source = "Azure"
 			}
